@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/nayeemmohamed/lifesaver#readme",
   "dependencies": {
-    "mongodb": "^3.6.6"
+    "mongodb": "*"
   }
 }

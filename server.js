@@ -8,7 +8,8 @@ var printMessage  = function(message){
     console.log('[Server] ' + moment().format()+' '+message)
 }
 
-var port = 4000;
+
+
+var port = 8080;
 app.listen(port);
 printMessage("Listening on port: "+port);
-

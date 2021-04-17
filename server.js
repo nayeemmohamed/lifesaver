@@ -5,7 +5,7 @@ var app=express()
 app.use(express.static(__dirname + '/public'));
 
 var printMessage  = function(message){
-    console.log('[Server] @' + moment().format()+' '+message)
+    console.log('[Server] ' + moment().format()+' '+message)
 }
 
 var port = 3000;

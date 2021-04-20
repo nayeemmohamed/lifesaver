@@ -3,6 +3,15 @@ $(document).ready(function () {
 
   var markers = [];
 
+  markers = [];
+  var options = {
+    zoom: 3,
+    center: { lat: -36.903992, lng: 144.793762 },
+  };
+  var map = new google.maps.Map(document.getElementById("map"), options);
+  google.maps.event.addListener(map, "load", function (event) {});
+
+
   $("#btnSearch").click(() => {
     $.get("/getAllProfiles", function (data) {
       $("#map").empty();

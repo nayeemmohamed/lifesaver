@@ -4,8 +4,6 @@
 }
 
 body {
-  /*background: #007bff;*/
-  /*background: linear-gradient(to right, #0062E6, #33AEFF);*/
   background: linear-gradient(to right, #be2c07, rgb(145, 2, 80));
 }
 
@@ -85,7 +83,7 @@ body {
 }
 
 .form-label-group input::placeholder {
-  color: transparent;
+  color: rgb(168, 4, 4);
 }
 
 .form-label-group input:not(:placeholder-shown) {
